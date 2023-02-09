@@ -58,6 +58,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "num2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -78,7 +91,20 @@
 						"type": "int256"
 					}
 				],
-				"name": "setNumber",
+				"name": "setNumber1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -112,11 +138,11 @@
 	},
 	"sources": {
 		"sibig_learning/first prog.sol": {
-			"keccak256": "0x7f0dc464e6466b6c078f7804f57b4532bdacdcd172a24cb5418122409030e0b5",
+			"keccak256": "0xb1c195ec0455952ab54e5062d199d2743be893fb724de9baff3999628ff47654",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://872d752490e8ec8fb5b20980c0c8dd3969e83bd43410448c77c97deead4e391c",
-				"dweb:/ipfs/QmP5L4LoWLGqGfbpj4mu84JiSM7kxsvo564a5PB7Vhc7SY"
+				"bzz-raw://054fbf3f877726e321ee25890456b856357dd2d7c8e4c246d6de83b7ef9fb8b3",
+				"dweb:/ipfs/QmNaP5vND3aCNoTFTAYY2BMRBoRqyL54RTmaqxCZYcwHxX"
 			]
 		}
 	},
