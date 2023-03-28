@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "vAddress",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sibig_learning/learn_error.sol": "learnError"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sibig_learning/learn_error.sol": {
+			"keccak256": "0x179d7acadec94d2c30f743f5d121f1394fde43832c4dde9861b5e59e81fdeaa6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6ae2ad8cb4afcbd4b280398a5b65308ef906f48d5a104fda22e7c09f90827e3",
+				"dweb:/ipfs/QmfRjewkDdVzQ1Le2d5oQ52xJRs7zSTohyXz4v5T6NeUqm"
+			]
+		}
+	},
+	"version": 1
+}
